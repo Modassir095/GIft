@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Polaroid Drag Effect</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Images stacked like Polaroids -->
+    <div class="photo-stack" id="photoStack">
+      <div class="photo">
+        <img src="sun.jpg" alt="Image 1">
+        <p class="caption"> Beautiful Sunset</p>
+      </div>
+      <div class="photo">
+        <img src="mount.jpg" alt="Image 2">
+        <p class="caption"> Stunning Mountains</p>
+      </div>
+      <div class="photo">
+        <img src="beach.jpg" alt="Image 3">
+        <p class="caption"> Lovely Beach</p>
+      </div>
+      <!-- Add more images and captions as needed -->
+    </div>
+  </div>
+
+  <!-- GSAP and Draggable library -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/Draggable.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
